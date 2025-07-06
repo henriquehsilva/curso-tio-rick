@@ -8,12 +8,12 @@
   "theme_color": "#BF247A",
   "icons": [
     {
-      "src": "https://henriquesilva.dev/me.jpeg?auto=compress&cs=tinysrgb&w=192&h=192&dpr=1",
+      "src": "https://henriquesilva.dev/tio-rick.png?auto=compress&cs=tinysrgb&w=192&h=192&dpr=1",
       "sizes": "192x192",
       "type": "image/jpeg"
     },
     {
-      "src": "https://henriquesilva.dev/me.jpeg?auto=compress&cs=tinysrgb&w=512&h=512&dpr=1",
+      "src": "https://henriquesilva.dev/tio-rick.png?auto=compress&cs=tinysrgb&w=512&h=512&dpr=1",
       "sizes": "512x512",
       "type": "image/jpeg"
     }
