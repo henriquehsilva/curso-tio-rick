@@ -1,0 +1,25 @@
+{
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Eduardo Chagas",
+      "apelido": "eduardz.xy",
+      "pontos": 6,
+      "avatar": "https://henriquesilva.dev/alunos/eduardo.png?auto=compress&cs=tinysrgb&w=100&h=100&dpr=1"
+    },
+    {
+      "id": 2,
+      "nome": "Maysa Vitoria",
+      "apelido": "maysavitoria.30",
+      "pontos": 5,
+      "avatar": "https://henriquesilva.dev/alunos/maysa.png?auto=compress&cs=tinysrgb&w=100&h=100&dpr=1"
+    },
+        {
+      "id": 2,
+      "nome": "Igor Marçal",
+      "apelido": "_",
+      "pontos": 4,
+      "avatar": "https://henriquesilva.dev/alunos/igor.png?auto=compress&cs=tinysrgb&w=100&h=100&dpr=1"
+    }
+  ]
+}
