@@ -14,7 +14,7 @@ const Header: React.FC<HeaderProps> = ({ onDiscordClick, onWhatsAppClick, onYouT
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <img 
-              src="https://henriquesilva.dev/me.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&dpr=1" 
+              src="https://henriquesilva.dev/tio-rick.png?auto=compress&cs=tinysrgb&w=80&h=80&dpr=1" 
               alt="Tio Rick" 
               className="w-12 h-12 rounded-full border-2 border-white shadow-md"
             />
