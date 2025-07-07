@@ -46,7 +46,7 @@ const Header: React.FC<HeaderProps> = ({ onDiscordClick, onWhatsAppClick, onYouT
             <button 
               onClick={onYouTubeClick}
               className="p-2 bg-white/20 hover:bg-white/30 rounded-full transition-colors duration-200"
-              title="YouTube"
+              title="Aulas"
             >
               <Youtube className="w-5 h-5 text-white" />
             </button>
