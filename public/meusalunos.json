@@ -20,6 +20,13 @@
       "apelido": "igormdj",
       "pontos": 18,
       "avatar": "https://henriquesilva.dev/alunos/igor.png?auto=compress&cs=tinysrgb&w=100&h=100&dpr=1"
+    },
+    {
+      "id": 4,
+      "nome": "Nathália Moura",
+      "apelido": "npmour",
+      "pontos": 14,
+      "avatar": "https://henriquesilva.dev/alunos/nathalia.png?auto=compress&cs=tinysrgb&w=100&h=100&dpr=1"
     }
   ]
 }
