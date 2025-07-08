@@ -27,6 +27,13 @@
       "apelido": "npmour",
       "pontos": 20,
       "avatar": "https://henriquesilva.dev/alunos/nathalia.png?auto=compress&cs=tinysrgb&w=100&h=100&dpr=1"
+    },
+    {
+      "id": 4,
+      "nome": "Célio José (Neto)",
+      "apelido": "celioneto1410",
+      "pontos": 1,
+      "avatar": "https://henriquesilva.dev/alunos/neto.png?auto=compress&cs=tinysrgb&w=100&h=100&dpr=1"
     }
   ]
 }
