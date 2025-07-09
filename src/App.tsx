@@ -44,7 +44,7 @@ function App() {
   };
 
   const handleYouTubeClick = () => {
-    window.open('https://aulas.henriquesilva.dev', '_blank');
+    window.open('https://www.youtube.com/@henriquesilvadev', '_blank');
   };
 
   if (loading) {
