@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageCircle, Users, Youtube, Github, Linkedin } from 'lucide-react';
+import { MessageCircle, Users, Youtube, Github, Linkedin, Bot } from 'lucide-react';
 
 interface HeaderProps {
   onDiscordClick: () => void;
@@ -7,6 +7,7 @@ interface HeaderProps {
   onYouTubeClick: () => void;
   onGithubClick: () => void;
   onLinkedinClick: () => void;
+  onGptClick: () => void;
 }
 
 const Header: React.FC<HeaderProps> = ({
@@ -15,6 +16,7 @@ const Header: React.FC<HeaderProps> = ({
   onYouTubeClick,
   onGithubClick,
   onLinkedinClick,
+  onGptClick
 }) => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-[#BF247A] to-[#812B8C] shadow-lg">
@@ -37,6 +39,13 @@ const Header: React.FC<HeaderProps> = ({
           </div>
           
           <div className="flex items-center space-x-2">
+            <button 
+              onClick={onGptClick}
+              className="p-2 bg-white/20 hover:bg-white/30 rounded-full transition-colors duration-200"
+              title="GPT do Tio Rick"
+            >
+              <Bot className="w-5 h-5 text-white" />
+            </button>
             <button 
               onClick={onDiscordClick}
               className="p-2 bg-white/20 hover:bg-white/30 rounded-full transition-colors duration-200"
