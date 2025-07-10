@@ -1,9 +1,7 @@
-puts <<~HEREDOC
+puts <<HEREDOC
 Quantas horas tem um ano?
-Um ano tem 365 dias, e cada dia tem 24 horas. 
-Portanto, para calcular o número total de horas em um ano, multiplicamos:
+Um ano tem 365 dias, e cada dia tem 24 horas. Portanto, para calcular o número total de horas em um ano, multiplicamos:
 365 dias/ano * 24 horas/dia = 8.760 horas/ano
---------------------------------------------------------
 HEREDOC
 
 DIAS_NO_ANO = 365
