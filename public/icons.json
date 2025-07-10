@@ -1,13 +1,4 @@
 {
-  "name": "Curso de Programação do Tio Rick",
-  "short_name": "Tio Rick",
-  "description": "Lista de alunos do curso de programação",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#2A2359",
-  "theme_color": "#BF247A",
-  "icons": [
-   {
   "icons": [
     {
       "src": "windows11/SmallTile.scale-100.png",
