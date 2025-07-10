@@ -47,6 +47,14 @@ function App() {
     window.open('https://www.youtube.com/@henriquesilvadev', '_blank');
   };
 
+  const handleGithubClick = () => {
+    window.open('https://github.com/CURSO-DE-PROGRAMACAO-DO-TIO-RICK', '_blank');
+  };
+
+  const handleLinkedinClick = () => {
+    window.open('https://www.linkedin.com/groups/10164029/', '_blank');
+  };
+
   if (loading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-[#2A2359] to-[#812B8C] flex items-center justify-center">
@@ -64,6 +72,8 @@ function App() {
         onDiscordClick={handleDiscordClick}
         onWhatsAppClick={handleWhatsAppClick}
         onYouTubeClick={handleYouTubeClick}
+        onGithubClick={handleGithubClick}
+        onLinkedinClick={handleLinkedinClick}
       />
       
       <main className="pt-20 pb-8">

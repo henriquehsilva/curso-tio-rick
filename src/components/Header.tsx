@@ -1,13 +1,21 @@
 import React from 'react';
-import { MessageCircle, Users, Youtube } from 'lucide-react';
+import { MessageCircle, Users, Youtube, Github, Linkedin } from 'lucide-react';
 
 interface HeaderProps {
   onDiscordClick: () => void;
   onWhatsAppClick: () => void;
   onYouTubeClick: () => void;
+  onGithubClick: () => void;
+  onLinkedinClick: () => void;
 }
 
-const Header: React.FC<HeaderProps> = ({ onDiscordClick, onWhatsAppClick, onYouTubeClick }) => {
+const Header: React.FC<HeaderProps> = ({
+  onDiscordClick,
+  onWhatsAppClick,
+  onYouTubeClick,
+  onGithubClick,
+  onLinkedinClick,
+}) => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-[#BF247A] to-[#812B8C] shadow-lg">
       <div className="container mx-auto px-4 py-3">
@@ -46,9 +54,23 @@ const Header: React.FC<HeaderProps> = ({ onDiscordClick, onWhatsAppClick, onYouT
             <button 
               onClick={onYouTubeClick}
               className="p-2 bg-white/20 hover:bg-white/30 rounded-full transition-colors duration-200"
-              title="Aulas"
+              title="YouTube"
             >
               <Youtube className="w-5 h-5 text-white" />
+            </button>
+            <button 
+              onClick={onGithubClick}
+              className="p-2 bg-white/20 hover:bg-white/30 rounded-full transition-colors duration-200"
+              title="GitHub"
+            >
+              <Github className="w-5 h-5 text-white" />
+            </button>
+            <button 
+              onClick={onLinkedinClick}
+              className="p-2 bg-white/20 hover:bg-white/30 rounded-full transition-colors duration-200"
+              title="LinkedIn"
+            >
+              <Linkedin className="w-5 h-5 text-white" />
             </button>
           </div>
         </div>
