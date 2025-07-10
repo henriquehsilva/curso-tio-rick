@@ -7,8 +7,6 @@
   "background_color": "#2A2359",
   "theme_color": "#BF247A",
   "icons": [
-   {
-  "icons": [
     {
       "src": "windows11/SmallTile.scale-100.png",
       "sizes": "71x71"
