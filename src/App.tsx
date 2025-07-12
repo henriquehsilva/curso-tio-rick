@@ -85,6 +85,14 @@ function App() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-8">
+              <div className="mb-6">
+                <button
+                  onClick={() => window.open('./roadmap.html', '_blank')}
+                  className="bg-white text-[#812B8C] hover:bg-purple-100 font-semibold py-2 px-4 rounded-full shadow-md transition"
+                >
+                  Roadmap do Curso
+                </button>
+              </div>
               <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">
                 Ranking dos Alunos
               </h1>
