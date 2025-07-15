@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageCircle, Users, Youtube, Github, Linkedin, Bot } from 'lucide-react';
+import { MessageCircle, Users, Youtube, Github, Linkedin, Bot, Book } from 'lucide-react';
 
 interface HeaderProps {
   onDiscordClick: () => void;
@@ -8,6 +8,7 @@ interface HeaderProps {
   onGithubClick: () => void;
   onLinkedinClick: () => void;
   onGptClick: () => void;
+  onBlogClick: () => void;
 }
 
 const Header: React.FC<HeaderProps> = ({
@@ -16,7 +17,8 @@ const Header: React.FC<HeaderProps> = ({
   onYouTubeClick,
   onGithubClick,
   onLinkedinClick,
-  onGptClick
+  onGptClick,
+  onBlogClick
 }) => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-[#BF247A] to-[#812B8C] shadow-lg">
@@ -39,6 +41,13 @@ const Header: React.FC<HeaderProps> = ({
           </div>
           
           <div className="flex items-center space-x-2">
+            <button 
+              onClick={onBlogClick}
+              className="p-2 bg-white/20 hover:bg-white/30 rounded-full transition-colors duration-200"
+              title="Blog"
+            >
+              <Book className="w-5 h-5 text-white" />
+            </button>
             <button 
               onClick={onGptClick}
               className="p-2 bg-white/20 hover:bg-white/30 rounded-full transition-colors duration-200"

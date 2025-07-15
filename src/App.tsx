@@ -59,6 +59,10 @@ function App() {
     window.open('https://chatgpt.com/g/g-6870247c27c0819194c42f30af2e8ca0-gpt-do-tio-rick', '_blank');
   };
 
+  const handleBlogClick = () => {
+    window.open('https://dev.to/@henriquesilvadev', '_blank');
+  };
+
   if (loading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-[#2A2359] to-[#812B8C] flex items-center justify-center">
@@ -79,6 +83,7 @@ function App() {
         onGithubClick={handleGithubClick}
         onLinkedinClick={handleLinkedinClick}
         onGptClick={handleGptClick}
+        onBlogClick={handleBlogClick}
       />
       
       <main className="pt-20 pb-8">
